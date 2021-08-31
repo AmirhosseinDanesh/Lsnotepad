@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notepad --</title>
+    <!-- <link rel="stylesheet" href="./css/css-reset.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body class="h-100 w-100">
+    <div class="container">
+        <div class="content mb-5">
+            <h1 class="text-white text-center mt-5">Welcome to notepad--</h1>
+            <p class="lead text-white text-center">You can add anything you want :)</p>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-12 mb-5  col-sm-6 ">
+                <label class="text-white h2 mb-4" for="note">Write your note</label>
+                <form id="form" action="#" class="d-flex flex-column">
+                    <textarea class="border-radus" name="" id="note" cols="10" rows="5" ></textarea>
+                    <input type="submit" class="btn-dark p-2 mt-2 border-radus" value="save" >
+                </form>
+            </div>
+            <div class="col-12 col-sm-6 ">
+                <h2 class="text-white">My note</h2>
+                <div id="note-list"></div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

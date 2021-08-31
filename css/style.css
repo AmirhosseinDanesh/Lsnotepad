@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(96,102,212);
+    background: linear-gradient(297deg, rgba(96,102,212,1) 16%, rgba(204,33,177,1) 91%);
+    font-family: cursive;
+}
+
+
+
+.border-radus{
+    border-radius: 15px;
+}
+
+
+#note-list{
+    display: flex;
+    flex-direction: column;
+}
+
+
+li{
+    color:white
+}
+
+
+.removebtnstyle{
+    float: right;
+    color: red !important;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
