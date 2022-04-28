@@ -51,7 +51,7 @@ function newNote(e) {
     
 
 
-    
+
 
     addNoteToLs(note)
 
